@@ -11,7 +11,7 @@ async function sendMessage() {
     input.value = "";
 
     try {
-        const response = await fetch('https://chatboat-catarinos.vercel.app/', {
+        const response = await fetch('https://chatboat-catarinos.vercel.app/chat', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
