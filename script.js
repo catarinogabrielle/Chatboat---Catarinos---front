@@ -35,7 +35,7 @@ async function sendMessage() {
 
     } catch (error) {
         console.error("Erro ao enviar mensagem:", error);
-        addMessage("Desculpe, estou com problemas para me conectar.", "bot");
+        addMessage("Desculpe, estou com problemas para me conectar", "bot");
     }
 }
 
